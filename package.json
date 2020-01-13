@@ -1,0 +1,25 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rebornist/parcel.git",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.3",
+    "postcss-modules": "^1.5.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "sass": "^1.24.4"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./"
+  }
+}

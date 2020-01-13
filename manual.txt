@@ -1,0 +1,13 @@
+1. yarn 설치 : https://yarnpkg.com/lang/en/docs/install/#windows-stable
+2. yarn init 입력
+3. yarn global add parcel-bundler 입력
+4. yarn add react react-dom 입력
+5. yarn add babel-preset-env babel-preset-react --dev 입력
+6. index.html & index.js 생성 후 연동
+7. parcel 입력
+8. parcel index.html 입력 또는 package.json에 "scripts": {"start": "parcel index.html"}을 추가하여 yarn start 입력
+9. yarn add postcss-modules 입력
+10. yarn global add node-sass 입력
+11. yarn add autoprefixer 입력
+12. yarn add typography 입력
+13. package.json "scripts"에 {"build": "parcel build index.html -d build --public-url ./"} 추가
